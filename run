@@ -1,0 +1,3 @@
+g++ -std=c++11 -O3 -fomit-frame-pointer -Wall -pipe -DFX -DXMESA -framework OpenGL -framework GLUT -o ex1 ex1.cpp particle.cpp vector.cpp particle_source.cpp 
+./ex1
+python plot.py

@@ -1,0 +1,27 @@
+40
+1500
+2
+20
+100
+200
+0.01
+2
+1
+1
+2
+2
+0
+
+1 SPEED                     (10,50+) The speed of walking through the scene
+2 TIME_TO_LIVE              (100-, 2500+)
+3 TRAIL_LEN                 (1,n) How long the trailing lines of the particles are
+4 NUM_EMITTERS              (1,n) The number of emitters in the circle
+5 RADIUS                    (10-, 100) The radius of emitter source
+6 CHANCE_OF_GEN_PARTICLE    (1,100)  %chance of an emitter giving a particle for CIRCLE, num_particles for FIREWORKS
+7 GRAVITY_STREN             (0,0.5+) Multiplier of GRAV (-9.81)
+8 PARTICLE_SIZE             (1,5+) The size of the points if they are cubes
+9 PARTICLE_TYPE             (0,1,2) (CUBE, POINT with BOUNCING, LINE)
+10 EMITTER_TYPE             (0,1) (CIRCLE, FIREWORKS)
+11 PARTICLE_SPEED_MIN       (0, 10+) The minimum starting speed of a particle
+12 PARTICLE_SPEED_MAX       (0, 10+) The maximum starting speed of a particle
+13 BOUNCE_GRAV              (0,n) - the strength of gravity acceleration
